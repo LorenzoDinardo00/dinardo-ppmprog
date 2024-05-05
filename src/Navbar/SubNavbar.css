@@ -1,0 +1,91 @@
+/* SubNavbar.css */
+.navbar {
+  background-color: blue !important; /* Bootstrap's blue */
+}
+.btn-close{
+  display:flex;
+  justify-content: flex-end;
+  margin-left: auto;
+
+}
+.titoloSub{
+  font-weight: bold; /* Rende il testo grassetto */
+  font-style: italic;
+  text-align: center;
+  color:white;
+  width: 100%; /* Assicurati che il container occupi tutta la larghezza */
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente il contenuto */
+  align-items: center;
+  text-transform: uppercase;
+}
+
+/* Riduci la dimensione della search bar */
+.searchbar {
+  padding-top:10px;
+  padding-left: 10px;
+  font-style: italic;
+  text-align: center;
+  color:white;
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente il contenuto */
+  align-items: center;
+}
+
+.container-fluid{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container-popolari {
+  display: flex;
+  flex-direction: column; /* Assicurati che gli elementi siano disposti verticalmente */
+  align-items: center; /* Allinea gli elementi al centro */
+  justify-content: center; /* Centra verticalmente, se necessario */
+  margin: auto;
+  padding: 20px; /* Aggiungi un po' di spazio intorno agli elementi */
+  max-width: 100%; /* Imposta una larghezza massima appropriata */
+}
+
+.title-popolari {
+  text-align: center;
+  font-weight: bold;
+  width: 100%; /* Assicurati che il titolo occupi l'intera larghezza */
+  margin-bottom: 20px; /* Aggiungi spazio sotto il titolo prima delle colonne */
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around; /* Distanzia equamente le colonne */
+  width: 100%; /* Assicurati che il contenitore delle colonne occupi la piena larghezza */
+}
+
+.column {
+  width: 48%; /* Larghezza di ogni colonna per dare spazio tra di loro */
+}
+
+.link {
+  display: block; /* Ogni link su una nuova linea */
+  margin-bottom: 10px; /* Spazio tra i link */
+}
+
+
+.title-inevidenza {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px; /* Distanza tra il titolo e le colonne sottostanti */
+}
+.container-inevidenza {
+
+  max-width: 6000px; /* Imposta una larghezza massima per il contenitore */
+  margin: 20px auto; /* Centra il contenitore nella pagina con margini verticali */
+  padding: 40px;
+}
+.offcanvas{
+  max-height: 100vh;  /* L'altezza massima è 80% dell'altezza della finestra di visualizzazione */
+  overflow-y: auto;
+}
+.offcanvas hr {
+  border: 1px solid #000000; /* Colore evidente per vedere la linea */
+  margin: 10px 0; /* Aggiunge un po' di spazio sopra e sotto */
+}
