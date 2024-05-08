@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* Navbar.css */
+.navbar {
+  background-color: #0a5278 !important;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative !important;
+}
+.CorriereTitle{
+display: none;
+}
+.navbar-toggler {
+  margin-left: 1rem;
+  height: auto;
+  margin-bottom: -5px !important;
+}
+.navbar-toggler-icon {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.ms-auto {
+  margin-right: 1.25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.btn-close{
+  display:flex;
+  justify-content: flex-end;
+  margin-left: 90%;
+  margin-top: -4%;
+  position: absolute;
+
+}
+
+.container1menu {
+  display: flex;
+}
+
+
+.navbar-dark .navbar-toggler {
+border:none;
+}
+.sezione{
+  color:white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-bottom: -5px !important;
+}
+.sezione:hover{
+  color:white;
+}
+
+.btn-close-toggle{
+  display: none;
+
+}
+.titoloSub{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Sedan SC", serif;
+  text-align: center;
+  color:white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+  height:auto;
+  padding-top:10px;
+}
+
+.form-control{
+  border-right: none !important;
+}
+
+.input-group{
+  padding:10px;
+}
+
+.input-group-text{
+  background-color: transparent !important;
+  border-left:none !important;
+}
+
+.container-popolari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.title-popolari {
+  color: #999;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size:13px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.column {
+  width: 48%;
+}
+
+.link {
+  display: block;
+  margin-bottom: 10px;
+  color: #0a5278;
+  text-decoration: none;
+  padding-right: 40px;
+  font-size:13px;
+}
+.link:hover {
+  text-decoration: underline;
+  font-size:14px;
+}
+.container-inevidenza .link {
+  color: black;
+}
+
+.title-inevidenza {
+  color: #999;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size:13px;
+}
+.container-inevidenza {
+  font-size:13px;
+  max-width: 6000px;
+  margin: 20px auto;
+  padding: 40px;
+}
+.offcanvas{
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.offcanvas hr {
+  border: 1px solid #000000;
+  margin: 10px 0;
+}
+.icona{
+  border:none;
+  background-color: transparent;
+  font-size:17px;
+  color:gray;
+  transition: transform 0.5s ease-in-out;
+}
+.icona:hover{
+  color:black;
+  transform: translateX(10px);
+}
+
+.sub-navbar {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.nav-item {
+  border-top:1px solid #808080FF;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  font-size: 1.25rem !important;
+}
+
+.dropdown-toggle {
+  padding-left: 2.25rem;
+}
+
+.meteo-firenze{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin:auto;
+  font-size:1.25rem;
+}
+
+
+.meteo-firenze h1 {
+  position: absolute;
+  transform: translateX(-50%);
+  left:50%;
+  margin: 0;
+  font-size: 1.25rem;
+}
+.bi-cloud-drizzle-fill{
+  padding-left: 3px;
+}
+.bi-brightness-low-fill{
+color:orange;
+}
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 70px;
+  gap: 10px;
+  flex-wrap: nowrap;
+
+}
+
+.subscribe-button {
+  padding: 8px 16px;
+  background-color: white;
+  color: #0a5278;
+  display: inline-flex;
+  border: 2px solid orange;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  font-weight: bold;
+}
+
+.access-button {
+  color: white;
+  background-color: transparent;
+  padding: 8px 16px;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  flex-shrink: 1;
+}
+.bi-person-circle{
+  margin-right: 4px;
+}
+.access-button:hover {
+  border: 1px solid white;
+  color:white;
+  border-radius: 10px;
+}
+.lastupdate{
+  display: none;
+}
+@media (max-width: 950px) {
+  .meteo-firenze h1 {
+    display:none;
+  }
+}
+
+@media (max-width: 830px) {
+  .navbar {
+    height: 150px;
+  }
+  .navbar-toggler-icon {
+    padding-top:150px;
+    margin-left: -17px;
+    font-size: 20px;
+  }
+  .ms-auto{
+    display: none;
+  }
+  .sezione{
+    display:none;
+  }
+  .button-group{
+    justify-content: space-between;
+    position:fixed;
+    top:2%;
+  }
+  .subscribe-button {
+    order: -1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-weight: bold
+  }
+  .access-button{
+    position:fixed;
+    right:0;
+    order: 1;
+    margin-left: 30px;
+    justify-content: flex-end;
+
+  }
+  .container1menu{
+    width:100%;
+
+  }
+  .CorriereTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: white;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 25px;
+    font-weight: bold;
+    font-family: "Sedan SC", serif;
+    padding-right: 40px;
+    width: 100%;
+  }
+  .lastupdate {
+    display: block;
+    color: white;
+    font-size: 5px;
+    margin-top: -10px;
+  }
+  .h2, h2 {
+    font-size: 15px !important;
+  }
+}
