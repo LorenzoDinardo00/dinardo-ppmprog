@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+.TitoloWebPC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+  margin: auto;
+  padding-left: 10px;
+  padding-top: 95px;
+  font-weight: bold;
+  font-family: "Sedan SC", serif;
+  padding-right: 40px;
+  width: 100%;
+}
+
+.TitoloWebPC h1 {
+  font-weight: bold;
+  font-size: 50px;
+  text-shadow: 1px 0 0 currentColor, 0 1px 0 currentColor, -1px 0 0 currentColor, 0 -1px 0 currentColor;
+}
+
+.lastupdatePC{
+  align-self: flex-start;
+  font-size: .80rem;
+  margin-top: 0;
+}
+.bi-facebook{
+ padding-left: 10%;
+  font-size: 1.25rem;
+}
+.bi-instagram{
+ padding-left: 0.5125rem;
+  font-size: 1.25rem;
+}
+.bi-twitter-x{
+ padding-left: 0.5125rem;
+  font-size: 1.25rem;
+}
+.bi-tiktok {
+ padding-left: 0.5125rem;
+  font-size: 1.25rem;
+}
+@media (max-width: 830px) {
+  .TitoloWebPC{
+  display:none;
+  }
+}

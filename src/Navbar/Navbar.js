@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import SubNavbarcss from './Navbar.css';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -7,6 +7,29 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Navbar() {
+  const [text, setText] = useState('Meteo: Firenze 15');
+  const [icon, setIcon] = useState('bi bi-cloud-drizzle-fill');
+  const [showIcon, setShowIcon] = useState(true);
+  const handleScroll = () => {
+    const position = window.scrollY;
+    if (position > 100) {
+      setText('CORRIERE DELLA SERA');
+      setIcon('bi bi-cloud-drizzle-fill');
+      setShowIcon(false);
+    } else {
+      setText('Meteo: Firenze 15');
+      setIcon('bi bi-cloud-drizzle-fill');
+      setShowIcon(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <nav className="navbar navbar-dark fixed-top">
       <div className="container1menu">
@@ -20,7 +43,6 @@ function Navbar() {
           <div className={"lastupdate"}><h2>Aggiornato alle 21:33 </h2></div>
         </div>
 
-        {/* Qui aggiungi il tuo nuovo menù a destra */}
         <div className="ms-auto">
           <div className="dropdown">
             <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -113,7 +135,7 @@ function Navbar() {
           </nav>
         </div>
       </div>
-      <div className={"meteo-firenze"}><h1>Meteo: Firenze 15°<i className="bi bi-cloud-drizzle-fill"></i></h1></div>
+      <div className={"meteo-firenze"}><h1>{text}{showIcon && <i className={icon}> </i>} </h1></div>
       <div className="button-group"> {/* Aggiunta del contenitore per i bottoni */}
         <button className="subscribe-button"><i className="bi bi-brightness-low-fill"></i>ABBONATI</button>
         <a href={"access-button"} className={"access-button"}><i class="bi bi-person-circle"></i>Accedi</a>
