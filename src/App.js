@@ -7,6 +7,7 @@ import VideoDelGiorno from "./VideoDelGiorno.js";
 import News from './News.js';
 import Review from './Review.js';
 import FinalButton from "./FinalButton";
+import Footer from './Footer.js';
 function App() {
   return (
     <div className="TotalPage">
@@ -18,6 +19,7 @@ function App() {
     <News />
     <Review />
     <FinalButton />
+    <Footer />
     </div>
 );
 }
