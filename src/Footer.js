@@ -23,7 +23,7 @@ function Footer() {
           <p>Copyright 2024 © Lorenzo Dinardo Tutti i diritti sono riservati | Per la pubblicità: Lorenzo Dinardo Media
             SpA - Direzione Pubblicità<br/>
             Lorenzo Dinardo Media - Divisione Quotidiani Sede legale: via Angelo - 20132 Firenze | Capitale
-            sociale: Euro 270.000.000,00<br/>
+            sociale: Euro 270.000.000,0000<br/>
       </p>
         </div>
       </footer>

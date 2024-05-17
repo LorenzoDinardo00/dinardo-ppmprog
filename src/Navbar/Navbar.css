@@ -133,7 +133,7 @@ border:none;
 }
 .link:hover {
   text-decoration: underline;
-  
+
 }
 .container-inevidenza .link {
   color: black;
@@ -297,7 +297,8 @@ color:orange;
 
 @media (max-width: 830px) {
   .navbar {
-    height: 150px;
+    height: auto;
+    padding: 10px 0;
   }
   .navbar-toggler-icon {
     padding-top:150px;
