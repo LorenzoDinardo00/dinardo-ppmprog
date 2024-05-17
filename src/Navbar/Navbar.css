@@ -295,9 +295,10 @@ color:orange;
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .navbar {
     height: 150px;
+    width: 100%;
   }
   .navbar-toggler-icon {
     padding-top:150px;
