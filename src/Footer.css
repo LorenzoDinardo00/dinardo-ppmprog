@@ -48,9 +48,9 @@ footer {
 }
 @media (max-width: 900px) {
   .Footer {
-    display:none;
+    width: 100%;
   }
   .footer{
-    display:none;
+    width: 100%;
   }
 }
