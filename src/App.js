@@ -19,7 +19,6 @@ function App() {
     <News />
     <Review />
     <FinalButton />
-    <Footer />
     </div>
 );
 }
