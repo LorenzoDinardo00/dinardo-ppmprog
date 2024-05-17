@@ -25,7 +25,7 @@ function VideoDelGiorno() {
               <source src="/Video/videoExample.mp4" type="video/mp4"/>
             </video>
             <div className="text">
-              <a href={"/Video/videoExample.mp4"}><h3>Meloni all’incontro “La Costituzione di tutti. Dialogo su premierato” </h3> </a>
+              <a href={"/Video/videoExample.mp4"}><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit </h3> </a>
             </div>
           </div>
           <div className="news-item">
@@ -36,7 +36,7 @@ function VideoDelGiorno() {
               <source src="/Video/videoExample.mp4" type="video/mp4" />
             </video>
             <div className="text">
-              <a href={"/Video/videoExample.mp4"}><h3>Fiamme nello stabilimento a Bolzano</h3></a>
+              <a href={"/Video/videoExample.mp4"}><h3>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h3></a>
             </div>
           </div>
           <div className="news-item">
@@ -47,8 +47,7 @@ function VideoDelGiorno() {
               <source src="/Video/videoExample.mp4" type="video/mp4"/>
             </video>
             <div className="text">
-              <a href={"/Video/videoExample.mp4"}><h3>I 48 milioni di euro falsi sequestrati in una stamperia a
-                Napoli</h3></a>
+              <a href={"/Video/videoExample.mp4"}><h3>Sunt in culpa qui officia deserunt mollit anim id est laborum.</h3></a>
             </div>
           </div>
           <div className="news-item">
@@ -59,7 +58,7 @@ function VideoDelGiorno() {
               <source src="/Video/videoExample.mp4" type="video/mp4"/>
             </video>
             <div className="text">
-              <a href={"/Video/videoExample.mp4"}><h3>Ecco che succede quando passa Jannik»: fan in delirio</h3></a>
+              <a href={"/Video/videoExample.mp4"}><h3>Sed quia non numquam eius modi tempora.</h3></a>
             </div>
           </div>
         </div>

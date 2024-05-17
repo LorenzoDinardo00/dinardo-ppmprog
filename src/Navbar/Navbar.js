@@ -50,9 +50,9 @@ function Navbar() {
               Edizioni Locali
             </button>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
+              <li><a className="dropdown-item" href="#">Lorem Ipsum</a></li>
+              <li><a className="dropdown-item" href="#">Lorem Ipsum</a></li>
+              <li><a className="dropdown-item" href="#">Lorem Ipsum</a></li>
             </ul>
           </div>
           <div className="dropdown">
@@ -61,9 +61,9 @@ function Navbar() {
               Servizi
             </button>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
+              <li><a className="dropdown-item" href="#">Lorem Ipsum</a></li>
+              <li><a className="dropdown-item" href="#">Lorem Ipsum</a></li>
+              <li><a className="dropdown-item" href="#">Lorem Ipsum</a></li>
             </ul>
           </div>
 
@@ -87,20 +87,20 @@ function Navbar() {
             <div className="title-popolari">Più popolari</div>
             <div className="columns">
               <div className="column">
-                <a href="#" className="link">UCRAINA RUSSIA</a>
-                <a href="#" className="link">ISRAELE</a>
-                <a href="#" className="link">MELONI</a>
-                <a href="#" className="link">BCE</a>
-                <a href="#" className="link">SINNER</a>
-                <a href="#" className="link">PRIMA PAGINA</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
               </div>
               <div className="column">
-                <a href="#" className="link">SERIE A</a>
-                <a href="#" className="link">FORMULA 1</a>
-                <a href="#" className="link">CINEMA</a>
-                <a href="#" className="link">PODCAST DAILY</a>
-                <a href="#" className="link">ELEZIONI</a>
-                <a href="#" className="link">OROSCOPO FOX</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
               </div>
             </div>
           </div>
@@ -109,20 +109,20 @@ function Navbar() {
             <div className="title-inevidenza">In evidenza</div>
             <div className="columns">
               <div className="column">
-                <a href="#" className="link">UCRAINA RUSSIA</a>
-                <a href="#" className="link">ISRAELE</a>
-                <a href="#" className="link">MELONI</a>
-                <a href="#" className="link">BCE</a>
-                <a href="#" className="link">SINNER</a>
-                <a href="#" className="link">PRIMA PAGINA</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
               </div>
               <div className="column">
-                <a href="#" className="link">SERIE A</a>
-                <a href="#" className="link">FORMULA 1</a>
-                <a href="#" className="link">CINEMA</a>
-                <a href="#" className="link">PODCAST DAILY</a>
-                <a href="#" className="link">ELEZIONI</a>
-                <a href="#" className="link">OROSCOPO FOX</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Lorem Ipsum</a>
               </div>
             </div>
           </div>

@@ -19,24 +19,20 @@ function News() {
         <div className="image-wrapper">
           <img src={"photos/imgNotizia1.jpg"} alt="Descrizione immagine" className="img-news"/>
         </div>
-        <div className="content"><h4>Arresto Sospettato per una Serie di Furti in Zona Centrale</h4>
-          <div className={"di"}><p>Di Pierpaolo Cosentin</p></div>
+        <div className="content"><h4>De Finibus Bonorum et Malorum", written by Cicero in 45 BC</h4>
+          <div className={"di"}><p>Di Lorem Ipsum</p></div>
           <p>
-            Nella tarda serata di ieri, le forze dell'ordine hanno arrestato un individuo sospettato
-            di numerosi furti in zona centrale. L'arresto segue una serie di indagini durate mesi.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
           </p></div>
       </div>
       <div className="item left-bottom">
         <div className="image-wrapper">
           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
         </div>
-        <div className="content"><h4>Inaugurazione del Nuovo Parco Tecnologico di Innovazione</h4>
-          <div className={"di"}><p>Di Laura Bianchi</p></div>
+        <div className="content"><h4>1914 translation by H. Rackham</h4>
+          <div className={"di"}><p>Di Lorem Ipsum</p></div>
           <p>
-            Ieri mattina, la città ha festeggiato l'apertura del Parco Tecnologico di Innovazione,
-            un hub dedicato alla ricerca e allo sviluppo nel campo delle energie rinnovabili. L'evento
-            ha visto la partecipazione di numerosi leader del settore, oltre a rappresentanti locali
-            e nazionali.
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
           </p></div>
       </div>
       <div className="item right">
@@ -49,9 +45,9 @@ function News() {
           <source src="/Video/CorriereTV1.mp4" type="video/mp4"/>
         </video>
         <div className="text1TV">
-          <h3>TechAdvance Convoca una Riunione Strategica d'Emergenza</h3>
-          <div className="di"><p>Di Marco Gentili</p></div>
-          <p> La TechAdvance ha annunciato una riunione d'emergenza per discutere di recenti sfide di mercato.</p>
+          <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
+          <div className="di"><p>Di Lorem Ipsum</p></div>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
         <video onMouseEnter={handleMouseEnter}
                onMouseLeave={handleMouseLeave}
@@ -60,18 +56,17 @@ function News() {
           <source src="/Video/CorriereTV2.mp4" type="video/mp4"/>
         </video>
         <div className="text1TV">
-          <h3>Nuova Scoperta Rivoluzionaria nella Cura del Diabete da parte di MedFuture</h3>
-          <div className="di"><p>Di Giulio Conti</p></div>
-          <p> MedFuture, una startup biotecnologica emergente, ha annunciato oggi di aver fatto una svolta significativa
-            nella cura del diabete.</p>
+          <h3>De Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+          <div className="di"><p>Di Lorem Ipsum</p></div>
+          <p>  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
         </div>
 
       </div>
       <div className="item news-integral">
         <div className="news-integral-title">
-          <h4>GreenTech Innovations Lancia il Primo Drone Ecologico Alimentato ad Energia Solare</h4>
+          <h4>de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h4>
         </div>
-        <div className="di"><p>Di Giulio Conti</p></div>
+        <div className="di"><p>Di Lorem Ipsum</p></div>
         <div className="news-integral-image">
           <img src={"photos/imgNotizia3.jpg"} alt="Parco Tecnologico" className="img-news"/>
         </div>

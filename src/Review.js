@@ -12,13 +12,10 @@ function review(){
         <div className="image-wrapper">
           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
         </div>
-        <div className="content"><h4>Inaugurazione del Nuovo Parco Tecnologico di Innovazione</h4>
-          <div className={"di"}><p>Di Laura Bianchi</p></div>
+        <div className="content"><h4>The standard Lorem Ipsum passage, used since the 1500s</h4>
+          <div className={"di"}><p>Di Lorem Ipsum</p></div>
           <p>
-            Ieri mattina, la città ha festeggiato l'apertura del Parco Tecnologico di Innovazione,
-            un hub dedicato alla ricerca e allo sviluppo nel campo delle energie rinnovabili. L'evento
-            ha visto la partecipazione di numerosi leader del settore, oltre a rappresentanti locali
-            e nazionali.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p></div>
       </div>
       <div className="item-review right">
@@ -28,23 +25,23 @@ function review(){
         <div className="text1Review">
           <div className="first-row-review">
             <div className="image-profile-review"><img src={"./photos/manreview.jpg"}/></div>
-            <h3>Sono d'accordo con il giornalista</h3>
+            <h3>Nemo enim ipsam voluptatem</h3>
           </div>
-          <div className="di"><p>Di Marco Gentili</p></div>
+          <div className="di"><p>Di Lorem Ipsum</p></div>
         </div>
         <div className="text1Review">
           <div className="first-row-review">
             <div className="image-profile-review"><img src={"./photos/manreview.jpg"}/></div>
-            <h3>Non sono d'accordo</h3>
+            <h3>nisi ut aliquid ex ea commodi consequatur?</h3>
           </div>
-          <div className="di"><p>Di Giulio Conti</p></div>
+          <div className="di"><p>Di Lorem Ipsum</p></div>
         </div>
         <div className="text1Review">
           <div className="first-row-review">
             <div className="image-profile-review"><img src={"./photos/manreview.jpg"}/></div>
-            <h3>Sono d'accordo con il giornalista</h3>
+            <h3>Et harum quidem rerum facilis est et expedita distinctio.</h3>
           </div>
-          <div className="di"><p>Di Marco Gentili</p></div>
+          <div className="di"><p>Di Lorem Ipsum</p></div>
         </div>
       </div>
     </div>

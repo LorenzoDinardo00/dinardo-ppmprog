@@ -7,12 +7,12 @@ function TemiCaldiOggi(){
       <div className="hot-topics">
         <h2>Temi caldi di oggi:</h2>
           <div className="topics">
-          <a href="#">TOTI</a>
-          <a href="#">ASTRAZENECA</a>
-          <a href="#">BOLZANO</a>
-          <a href="#">EUROVISION 2024</a>
-          <a href="#">UCRAINA-RUSSIA</a>
-          <a href="#">ISRAELE-HAMAS</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Ipsum</a>
+          <a href="#">Lorem Ipsum</a>
+          <a href="#">Ipsum</a>
 
           </div>
       </div>
