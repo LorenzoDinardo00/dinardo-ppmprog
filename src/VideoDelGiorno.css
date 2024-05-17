@@ -30,9 +30,9 @@ h2 {
 
 .scroll-container {
   display: flex;
-  flex-wrap: nowrap; /* Impedisce agli elementi di andare a capo */
-  overflow-x: auto; /* Abilita lo scroll orizzontale quando necessario */
-  -webkit-overflow-scrolling: touch; /* Migliora lo scorrimento touch su dispositivi mobili */
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   gap: 10px;
   max-width:1000px;
   padding-top: 0;

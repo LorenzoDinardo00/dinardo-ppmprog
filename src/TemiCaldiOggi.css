@@ -53,4 +53,8 @@ background-color: transparent;
   font-weight: normal;
   font-size: 15px;
 }
-
+@media (max-width: 600px) {
+  .table-nav{
+    display:none;
+  }
+}

@@ -5,6 +5,8 @@ import TitleLogo from './TitleLogo.js';
 import TemiCaldiOggi from './TemiCaldiOggi.js';
 import VideoDelGiorno from "./VideoDelGiorno.js";
 import News from './News.js';
+import Review from './Review.js';
+import FinalButton from "./FinalButton";
 function App() {
   return (
     <div className="TotalPage">
@@ -14,6 +16,8 @@ function App() {
     <TemiCaldiOggi />
     <VideoDelGiorno />
     <News />
+    <Review />
+    <FinalButton />
     </div>
 );
 }
