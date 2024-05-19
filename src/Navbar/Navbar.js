@@ -87,20 +87,20 @@ function Navbar() {
             <div className="title-popolari">Più popolari</div>
             <div className="columns">
               <div className="column">
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Notizia 1</a>
+                <a href="#" className="link">Notizia 2</a>
+                <a href="#" className="link">Notizia 3</a>
+                <a href="#" className="link">Notizia 4</a>
+                <a href="#" className="link">Notizia 5</a>
+                <a href="#" className="link">Notizia 6</a>
               </div>
               <div className="column">
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Notizia 7</a>
+                <a href="#" className="link">Notizia 8</a>
+                <a href="#" className="link">Notizia 9</a>
+                <a href="#" className="link">Notizia 10</a>
+                <a href="#" className="link">Notizia 11</a>
+                <a href="#" className="link">Notizia 12</a>
               </div>
             </div>
           </div>
@@ -109,20 +109,20 @@ function Navbar() {
             <div className="title-inevidenza">In evidenza</div>
             <div className="columns">
               <div className="column">
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Notizia A</a>
+                <a href="#" className="link">Notizia B</a>
+                <a href="#" className="link">Notizia C</a>
+                <a href="#" className="link">Notizia D</a>
+                <a href="#" className="link">Notizia E</a>
+                <a href="#" className="link">Notizia F</a>
               </div>
               <div className="column">
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
-                <a href="#" className="link">Lorem Ipsum</a>
+                <a href="#" className="link">Notizia G</a>
+                <a href="#" className="link">Notizia H</a>
+                <a href="#" className="link">Notizia I</a>
+                <a href="#" className="link">Notizia L</a>
+                <a href="#" className="link">Notizia M</a>
+                <a href="#" className="link">Notizia N</a>
               </div>
             </div>
           </div>

@@ -22,7 +22,10 @@
   display: flex;
   justify-content: flex-start;
 }
-
+.review-grid .right{
+  background-color: white !important;
+  height: 100%;
+}
 
 
 

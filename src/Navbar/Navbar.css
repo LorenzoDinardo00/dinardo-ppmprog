@@ -38,6 +38,7 @@ display: none;
   margin-left: 90%;
   margin-top: -4%;
   position: absolute;
+  color:white!important;
 
 }
 
@@ -120,7 +121,7 @@ border:none;
 }
 
 .column {
-  width: 48%;
+
 }
 
 .link {
@@ -368,6 +369,7 @@ color:orange;
     padding-top: 170px;
   }
   .btn-close{
+    color:white !important;
     margin-left: 85%;
     margin-top: -18%;
   }

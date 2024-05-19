@@ -8,6 +8,8 @@ import News from './News.js';
 import Review from './Review.js';
 import FinalButton from "./FinalButton";
 import Footer from './Footer.js';
+import EdizioniLocali from "./EdizioniLocali";
+import Iblogdelcorriere from "./Iblogdelcorriere";
 function App() {
   return (
     <div className="TotalPage">
@@ -18,8 +20,11 @@ function App() {
     <VideoDelGiorno />
     <News />
     <Review />
+      <EdizioniLocali />
+      <Iblogdelcorriere />
     <FinalButton />
       <Footer />
+
     </div>
 );
 }

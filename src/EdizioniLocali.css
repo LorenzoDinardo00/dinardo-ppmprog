@@ -1,0 +1,107 @@
+.EdizioniLocali h1 {
+  font-size: 30px;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  padding: 20px 0;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  font-style: italic;
+  text-transform: uppercase;
+
+}
+.EdizioniLocali .item{
+  border:none;
+}
+.UpdateTitle{
+  background-color: red !important;
+  width: 100%;
+}
+.UpdateTitle h4{
+  text-align: center !important;
+
+  color: white !important;
+  font-size: 17px;
+  margin:auto;
+  width: 100%;
+}
+.news-containerEL{
+  margin-left: 5px;
+}
+.news-containerEL img {
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.bi-caret-right{
+  margin-top:auto;
+  color: blue;
+  font-size: 32px;
+  transition: transform 0.5s ease-in-out !important;
+}
+.news-containerEL .right img {
+  padding-top:10px;
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.bi-caret-right:hover {
+  transform: translateX(10px) !important;
+}
+
+.right-n {
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 1 / 5;
+  align-items: flex-start;
+  border-left: gray 1px solid;
+  align-self: start;
+  height: 100%;
+}
+.podcast-invitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.podcast-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.subscribe2-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+.EdizioniLocali .item{
+  padding:0;
+}
+.subscribe2-button:hover {
+  background-color: #0056b3;
+}
+.EdizioniLocali .grid-container {
+  background-color: rgb(237, 244, 247);;
+}
+.EdizioniLocali .right{
+  background-color: white;
+  height:100%;
+  margin-right:5px;
+}

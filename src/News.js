@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import './News.css'; // Assicurati che il percorso sia corretto
+import './News.css';
 
 function News() {
   const handleMouseEnter = (event) => {
@@ -64,7 +64,7 @@ function News() {
       </div>
       <div className="item news-integral">
         <div className="news-integral-title">
-          <h4>de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h4>
+          <h4>De Finibus Bonorum et Malorum, written by Cicero in 45 BC</h4>
         </div>
         <div className="di"><p>Di Lorem Ipsum</p></div>
         <div className="news-integral-image">
