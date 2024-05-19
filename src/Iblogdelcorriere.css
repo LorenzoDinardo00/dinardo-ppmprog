@@ -30,6 +30,8 @@
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
+  flex: 1 1 calc(25% - 20px); /* Imposta una larghezza flessibile */
+  box-sizing: border-box;
 }
 
 .blog h3 {
@@ -64,3 +66,8 @@
 #show-more-btn:hover {
   background-color: #0056b3;
 }
+@media (max-width: 900px) {
+  .blog-container{width:100%;}
+
+}
+

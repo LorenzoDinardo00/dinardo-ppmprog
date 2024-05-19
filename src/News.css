@@ -81,6 +81,7 @@
   margin-bottom: 20px;
 }
 
+
 .news-integral-title h4 {
   font-size: 2rem;
   color: #333;
@@ -174,6 +175,9 @@
     padding-top: 150px;
     padding-bottom: 10px;
   }
+  .item .news-integral .di .p{
+    margin-top:6px !important;
+  }
 
   .item {
     flex-direction: column;
@@ -207,5 +211,11 @@
     height:60%;
     margin-top: 30px;
     display: block;
+  }
+  .content h4, .content p, .di p {
+    width: 98%;
+  }
+  .image-wrapper{
+    padding:20px;
   }
 }

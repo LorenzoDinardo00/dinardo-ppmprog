@@ -105,3 +105,20 @@
   height:100%;
   margin-right:5px;
 }
+@media (max-width: 900px) {
+  .EdizioniLocali .news-integral-title h4{
+    margin-left:6%;
+  }
+  .EdizioniLocali .right-n{
+    display: none;
+  }
+  .EdizioniLocali .grid-container{
+    padding-top: 0;
+  }
+  .EdizioniLocali .di {
+    padding-top: 15px !important;
+  }
+  .EdizioniLocali .content{
+    margin-left: 6%;
+  }
+}
