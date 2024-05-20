@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="Footer">
       <footer>
-        <h1 className={"FooterTitle"}>Corriere della Sera</h1>
+        <h1 className={"FooterTitle"}>Corriere della Sera-replica</h1>
         <div className="footer-top">
           <a href="#">Abbonati a Corriere della Sera</a> |
           <a href="#">Gazzetta</a> |
@@ -21,9 +21,8 @@ function Footer() {
           <a href="#">Codici Sconto</a> |
           <a href="#">Corso di Inglese - Francese</a>
           <p>Copyright 2024 © Lorenzo Dinardo Tutti i diritti sono riservati | Per la pubblicità: Lorenzo Dinardo Media
-            SpA - Direzione Pubblicità<br/>
-            Lorenzo Dinardo Media - Divisione Quotidiani Sede legale: via Angelo - 20132 Firenze | Capitale
-            sociale: Euro 270.000.000,0000<br/>
+            OK - Direzione Pubblicità<br/>
+           <br/>
       </p>
         </div>
       </footer>

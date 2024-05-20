@@ -87,7 +87,6 @@ ReviewTitle hr{
   text-align: left !important;
 
 }
-
 .EconomyTitle {
   background-color: #6d9cb3;
   text-align: center;
@@ -105,6 +104,9 @@ ReviewTitle hr{
   text-transform: uppercase;
   font-style: italic;
   width:100%;
+}
+.black{
+  color:black;
 }
 
 .right {
@@ -193,6 +195,7 @@ ReviewTitle hr{
   .content h4, .content p, .di p {
     width: 100%;
   }
+
   .right{
     display: none;
   }

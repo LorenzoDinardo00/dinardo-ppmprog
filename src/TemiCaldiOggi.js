@@ -7,12 +7,12 @@ function TemiCaldiOggi(){
       <div className="hot-topics">
         <h2>Temi caldi di oggi:</h2>
           <div className="topics">
-          <a href="#">Lorem Ipsum</a>
-          <a href="#">Ipsum</a>
-          <a href="#">Lorem Ipsum</a>
-          <a href="#">Ipsum</a>
-          <a href="#">Lorem Ipsum</a>
-          <a href="#">Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Ipsum</a>
+          <a href="">Lorem Ipsum</a>
+          <a href="">Ipsum</a>
 
           </div>
       </div>

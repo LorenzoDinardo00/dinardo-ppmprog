@@ -136,7 +136,7 @@ function Navbar() {
         </div>
       </div>
       <div className={"meteo-firenze"}><h1>{text}{showIcon && <i className={icon}> </i>} </h1></div>
-      <div className="button-group"> {/* Aggiunta del contenitore per i bottoni */}
+      <div className="button-group"> 
         <button className="subscribe-button"><i className="bi bi-brightness-low-fill"></i>ABBONATI</button>
         <a href={"access-button"} className={"access-button"}><i class="bi bi-person-circle"></i>Accedi</a>
       </div>

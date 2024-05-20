@@ -12,6 +12,14 @@
   text-transform: uppercase;
 
 }
+.EdizioniLocali a{
+  text-decoration: none;
+}
+
+.news-integral .di{
+  padding-top: 10px!important;
+
+}
 .EdizioniLocali .item{
   border:none;
 }
@@ -21,14 +29,13 @@
 }
 .UpdateTitle h4{
   text-align: center !important;
-
+  font-size:15px;
   color: white !important;
-  font-size: 17px;
   margin:auto;
   width: 100%;
 }
 .news-containerEL{
-  margin-left: 5px;
+  width:100%;
 }
 .news-containerEL img {
     padding-top: 10px;
@@ -85,14 +92,14 @@
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 25px;
   margin-bottom: 15px;
 }
 .EdizioniLocali .item{
-  padding:0;
+  padding:20px;
 }
 .subscribe2-button:hover {
   background-color: #0056b3;
@@ -121,4 +128,10 @@
   .EdizioniLocali .content{
     margin-left: 6%;
   }
+    .news-integral-image {
+      width:98%;
+      height: 60%;
+      margin-top: 30px;
+      display: block;
+    }
 }

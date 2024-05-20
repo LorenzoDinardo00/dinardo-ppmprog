@@ -13,8 +13,10 @@ function EdizioniLocali(){
        </div>
        <div className="item left-bottom">
          <div className="image-wrapper">
-           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
-         </div>
+
+           <img src={"photos/imgNotizia2.jpg"} alt=""  className="img-news"/>
+
+           </div>
          <div className="content"><h4>1914 translation by H. Rackham</h4>
            <div className={"di"}><p>Di Lorem Ipsum</p></div>
            <p>
@@ -27,48 +29,60 @@ function EdizioniLocali(){
        </div>
        <div className="item right">
          <div className={"UpdateTitle"}><h4>IN AGGIORNAMENTO</h4></div>
+
          <div className="news-containerEL">
-           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
+           <a href={""}>
+             <img src={"photos/imgNotizia2.jpg"} alt="" className="img-news"/>
+             <div className="text1TV">
+               <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
+               <div className="di"><p>Di Lorem Ipsum</p></div>
+               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                 et
+                 dolore magna aliqua. Ut enim ad minim veniam.</p>
+             </div>
+           </a>
+            <a href={""}>
+           <img src={"photos/imgNotizia2.jpg"} alt="" className="img-news"/>
+           <div className="text1TV">
+             <h3>De Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
+             <div className="di"><p>Di Lorem Ipsum</p></div>
+             <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+           </div>
+            </a>
+            <a href={""}>
+           <img src={"photos/imgNotizia2.jpg"} alt="" className="img-news"/>
            <div className="text1TV">
              <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
              <div className="di"><p>Di Lorem Ipsum</p></div>
              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                dolore magna aliqua. Ut enim ad minim veniam.</p>
            </div>
-           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
+            </a>
+           <a href={""}>
+           <img src={"photos/imgNotizia2.jpg"} alt="" className="img-news"/>
            <div className="text1TV">
              <h3>De Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
              <div className="di"><p>Di Lorem Ipsum</p></div>
              <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
            </div>
-           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
-           <div className="text1TV">
-             <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
-             <div className="di"><p>Di Lorem Ipsum</p></div>
-             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-               dolore magna aliqua. Ut enim ad minim veniam.</p>
-           </div>
-           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
-           <div className="text1TV">
-             <h3>De Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3>
-             <div className="di"><p>Di Lorem Ipsum</p></div>
-             <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-           </div>
+            </a>
          </div>
 
        </div>
 
        <div className="item news-integral">
+         <a href={""}>
          <div className="news-integral-title">
            <h4>De Finibus Bonorum et Malorum", written by Cicero in 45 BC</h4>
          </div>
          <div className="di"><p>Di Lorem Ipsum</p></div>
          <div className="news-integral-image">
-           <img src={"photos/imgNotizia3.jpg"} alt="Parco Tecnologico" className="img-news"/>
+           <img src={"photos/imgNotizia3.jpg"} alt="" className="img-news"/>
          </div>
-
+         </a>
        </div>
        <div className="item news-integral">
+         <a href={""}>
          <div className="news-integral-title">
            <h4>De Finibus Bonorum et Malorum", written by Cicero in 45 BC</h4>
          </div>
@@ -76,6 +90,7 @@ function EdizioniLocali(){
          <div className="news-integral-image">
            <img src={"photos/imgNotizia2.jpg"} alt="" className="img-news"/>
          </div>
+         </a>
 
        </div>
      </div>
@@ -85,8 +100,9 @@ function EdizioniLocali(){
          <h1>Edizione Locale 2 <i className="bi bi-caret-right"></i></h1>
        </div>
        <div className="item left-bottom">
+
          <div className="image-wrapper">
-           <img src={"photos/imgNotizia2.jpg"} alt="Descrizione immagine" className="img-news"/>
+           <img src={"photos/imgNotizia2.jpg"} alt="" className="img-news"/>
          </div>
          <div className="content"><h4>1914 translation by H. Rackham</h4>
            <div className={"di"}><p>Di Lorem Ipsum</p></div>
@@ -100,7 +116,7 @@ function EdizioniLocali(){
        </div>
        <div className="item right-n">
          <div className="podcast-invitation">
-           <img src={"photos/podcast.webp"} alt="Podcast" className="podcast-image"/>
+           <img src={"photos/podcast.jpg"} alt="Podcast" className="podcast-image"/>
            <button className="subscribe2-button">Iscriviti al Podcast</button>
          </div>
        </div>

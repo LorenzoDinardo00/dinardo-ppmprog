@@ -20,7 +20,9 @@
   display: flex;
   justify-content: flex-start;
 }
-
+.grid-container a{
+  text-decoration: none;
+}
 .image-wrapper {
   flex-basis: 50%;
   height: 100%;
@@ -75,7 +77,7 @@
   flex-direction: column;
   text-align: left;
   width: 100%;
-  padding: 20px;
+  padding: 20px !important;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -102,6 +104,7 @@
   margin-top: 20px;
   border-radius: 10px;
   overflow: hidden;
+  margin-left:auto;
 }
 
 .news-integral-image img {
@@ -214,8 +217,5 @@
   }
   .content h4, .content p, .di p {
     width: 98%;
-  }
-  .image-wrapper{
-    padding:20px;
   }
 }

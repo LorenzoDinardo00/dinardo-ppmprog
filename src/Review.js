@@ -5,7 +5,7 @@ function review(){
     <div className="review-grid">
       <div className="item-review left-top">
         <div className={"EconomyTitle"}>
-          <h1 className="logoEconomy">L'Economia</h1>
+          <h1 className="logoEconomy"> L'Economia</h1>
         </div>
       </div>
       <div className="item-review left-bottom">
