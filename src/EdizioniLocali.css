@@ -113,8 +113,14 @@
   margin-right:5px;
 }
 @media (max-width: 900px) {
+  .EdizioniLocali{
+    width:100%;
+  }
   .EdizioniLocali .news-integral-title h4{
     margin-left:6%;
+  }
+  .EdizioniLocali .news-integral .di{
+    padding-left:20px !important;
   }
   .EdizioniLocali .right-n{
     display: none;
