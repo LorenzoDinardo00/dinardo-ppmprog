@@ -85,7 +85,7 @@ h2 {
   color: #555;
 }
 
-/* Media query per dispositivi più piccoli */
+
 @media (max-width: 768px) {
   .news-item {
     min-width: 50%;
